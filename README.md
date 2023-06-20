@@ -33,6 +33,7 @@ Employee Profile URL
 
 ### batch-write.json, create-table.json, config.py and aws_controller.py are included in each microservies to build dynamoDB tables and access to AWS Cloud services (now inactive) 
 
+Python, Flask, HTML, DynamoDB, S3, DOCKER and Kubernetes used to create this project. 
 
 
 
