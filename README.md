@@ -3,7 +3,7 @@
 ## An end-to-end cloud native SAAS application connected to AWS S3 and AWS dynamoDB
 
 ### To run Employee Microservice 
-'''flask run''' employees folder app.py
+```flask run``` employees folder app.py
 
 /peoplesuite/apis/employees/{EmployeeID}/profile GET returns Employee Profile stored in DynamoDB table 
 EmployeeID 
@@ -20,7 +20,7 @@ Manager Name
 
 
 ### To run Departments Microservice 
-'''flask run''' department folder app.py 
+```flask run``` department folder app.py 
 GET /peoplesuite/apis/departments returns Department profile 
 DepartmentID 
 CostCenter 
