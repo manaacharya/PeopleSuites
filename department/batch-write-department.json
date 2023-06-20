@@ -1,0 +1,52 @@
+{
+    "Department": [
+        {
+            "PutRequest": {
+                "Item":
+                {
+                    "DepartmentID": {
+                        "S": "Human Resources"
+                    },
+                    "CostCenter": {
+                        "S": "4578214567"
+                    },
+                    "Parent DepartmentID": {
+                        "S": "People Department"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item":
+                {
+                    "DepartmentID": {
+                        "S": "Engineering"
+                    },
+                    "CostCenter": {
+                        "S": "8941003201"
+                    },
+                    "Parent DepartmentID": {
+                        "S": "Catalog Department"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item":
+                {
+                    "DepartmentID": {
+                        "S": "Marketing"
+                    },
+                    "CostCenter": {
+                        "S": "8941003201"
+                    },
+                    "Parent DepartmentID": {
+                        "S": "Sales and Marketing Department"
+                    }
+                }
+            }
+        }
+    ]
+}

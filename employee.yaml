@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-api-deployment
+spec:
+  replicas: 1d
+  selector:
+    matchLabels:
+      app: flask-api
+  template: image.html upload.html
+    metadata:
+      labels:
+        app: flask-api
+    spec:
+      containers:
+        - name: flask-api-container
+          image: Employee_docker.text
+          ports:
+            - containerPort: 5000
+          env:
+            - name: FLASK_APP
+              value: app.py
+            - name: FLASK_RUN_HOST
+              value: "0.0.0.0"
+

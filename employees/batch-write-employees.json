@@ -1,0 +1,106 @@
+{
+  "Employees": [
+    {
+      "PutRequest": {
+        "Item":
+        {
+          "EmployeeID": {
+            "S": "1008965"
+          },
+          "FirstName": {
+            "S": "Claire"
+          },
+          "LastName": {
+            "S": "Daniels"
+          },
+          "StartDate": {
+            "S": "06-24-1999"
+          },
+          "Country": {
+            "S": "DK"
+          },
+          "DepartmentID": {
+            "S": "Human Resources"
+          },
+          "Title": {
+            "S": "Hiring Manager"
+          },
+          "ManagerID": {
+            "S": "4568741"
+          },
+          "ManagerName": {
+            "S": "Karl Givon"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item":
+        {
+          "EmployeeID": {
+            "S": "1038461"
+          },
+          "FirstName": {
+            "S": "Erik"
+          },
+          "LastName": {
+            "S": "Contreras"
+          },
+          "StartDate": {
+            "S": "07-07-2004"
+          },
+          "Country": {
+            "S": "IR"
+          },
+          "DepartmentID": {
+            "S": "Engineering"
+          },
+          "Title": {
+            "S": "Associate Engineer"
+          },
+          "ManagerID": {
+            "S": "5874370"
+          },
+          "ManagerName": {
+            "S": "Hannah Oliver"
+          }
+        }
+      }
+    },
+    {
+    "PutRequest": {
+      "Item":
+      {
+        "EmployeeID": {
+          "S": "1279865"
+        },
+        "FirstName": {
+          "S": "Ciaran"
+        },
+        "LastName": {
+          "S": "Morrow"
+        },
+        "StartDate": {
+          "S": "12-10-2002"
+        },
+        "Country": {
+          "S": "LB"
+        },
+        "DepartmentID": {
+          "S": "Marketing"
+        },
+        "Title": {
+          "S": "Public Relations Officer"
+        },
+        "ManagerID": {
+          "S": "8745632"
+        },
+        "ManagerName": {
+          "S": "Harun Kane"
+        }
+      }
+    }
+  }
+  ]
+}
